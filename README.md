@@ -15,7 +15,9 @@ https://yurii-ruban.github.io/top-portfolio
   - Basic styling
   - Flexbox layout
   - Grid layout
-  - Responsiveness
+  - Media queries
+  - Responsive Images
+  - Art Direction
 
 ## Purpose
 
