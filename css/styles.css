@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  img {
+    display: block;
+  }
 }
 
 :root {
@@ -15,7 +18,8 @@ body {
   /* min-width: 300px; */
 }
 
-.social-media-container {
+.social-media-container,
+.project-icons-container {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -40,6 +44,7 @@ h2 {
 
 h1 {
   font-size: 36px;
+  margin-bottom: 0.5em;
 }
 
 .info,
@@ -49,8 +54,18 @@ h1 {
 }
 
 .page {
-  /* max-width: 1000px; */
-  /* padding: 50px 0; */
+  max-width: 1200px;
+}
+
+header,
+main,
+footer {
+  padding: 35px;
+}
+
+header,
+main {
+  background-color: white;
 }
 
 header {
@@ -58,7 +73,6 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
-  padding: 40px;
 
   display: flex;
   flex-direction: column;
@@ -82,10 +96,6 @@ header {
     flex-direction: column;
     align-items: center;
 
-    .heading {
-      margin-bottom: 0.5em;
-    }
-
     .info {
       font-size: 24px;
       text-wrap: pretty;
@@ -99,8 +109,44 @@ header {
 }
 
 main {
-  height: 500px;
-  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+
+    width: 100%;
+
+    .work-card {
+      .work-banner {
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .work-description {
+        padding: 1rem 1.5rem;
+        box-shadow: 3px 3px 20px 3px gray;
+
+        .work-heading {
+          display: flex;
+          justify-content: flex-between;
+
+          .project-name {
+            font-weight: 500;
+            margin: 0 auto 0 0.75em;
+          }
+          margin-bottom: 1.25rem;
+        }
+
+        .project-info {
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
 
 footer {
