@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Portfolio (The Odin Project)</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,16 +16,16 @@
 <body>
     <div class="page">
         <header>
-            <section class="banner">
-                <picture class="photo">
-                    <source srcset="./img/header-photo-mobile.jpg" media="(max-width: 600px)" />
-                    <source srcset="./img/header-photo-tablet.jpg" media="(max-width: 900px)" />
-                    <source srcset="./img/header-photo-wide.jpg" media="(max-width: 2000px)" />
-                    <img src="./img/header-photo-wide.jpg" alt="" />
-                </picture>
-                <h1 class="name">Yurii Ruban</h1>
-            </section>
             <section class="about-me">
+                <section class="banner">
+                    <picture class="photo">
+                        <source srcset="./img/header-photo-mobile.jpg" media="(max-width: 620px)" />
+                        <source srcset="./img/header-photo-tablet.jpg" media="(max-width: 960px)" />
+                        <source srcset="./img/header-photo-wide.jpg" media="(max-width: 2000px)" />
+                        <img src="./img/header-photo-wide.jpg" alt="" />
+                    </picture>
+                    <h1 class="name">Yurii Ruban</h1>
+                </section>
                 <h1 class="heading">About me</h1>
                 <p class="info">I am a passionate Software Engineer with over 6 years of experience delivering
                     innovative
@@ -201,7 +201,8 @@
                 <h1 class="heading">Contact me</h1>
                 <p class="message">Please get in touch if your think our work will be mutually beneficial!</p>
                 <p class="address">Kyiv, Ukraine</p>
-                <p class="contacts">TODO</p>
+                <p class="phone">+380991127047</p>
+                <p class="email">yurii.ruban97@gmail.com</p>
                 <div class="social-media-container">
                     <button class="social-link">
                         <img class="social-icon" src="./img/design/github.svg" width="40px" height="40px"
@@ -217,7 +218,12 @@
                     </button>
                 </div>
             </div>
-            <img class="footer-photo" />
+            <picture class="footer-photo">
+                <source srcset="./img/footer-photo-mobile.png" media="(max-width: 620px)" />
+                <source srcset="./img/footer-photo-mobile.png" media="(max-width: 960px)" />
+                <source srcset="./img/footer-photo-desktop.png" media="(max-width: 2000px)" />
+                <img src="./img/footer-photo-desktop.png" alt="" />
+            </picture>
         </footer>
     </div>
 </body>
