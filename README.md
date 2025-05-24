@@ -28,4 +28,16 @@ Here are the [instructions](https://www.theodinproject.com/lessons/node-path-jav
 
 ## Screenshot
 
-![Screenshot](./img/result.png)
+Here is some screenshots how it could look with different screen sizes
+
+### Desktop screens
+
+![Screenshot](./img/screenshots/main-project-wide.png)
+
+### Tablet screens
+
+![Screenshot](./img/screenshots/main-project-tablet.png)
+
+### Mobile screens
+
+![Screenshot](./img/screenshots/main-project-mobile.png)
