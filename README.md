@@ -6,7 +6,7 @@
 
 https://yurii-ruban.github.io/top-portfolio
 
-## Thechnologies used
+## Technologies used
 
 - HTML
   - Default boilerplate code
