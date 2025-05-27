@@ -136,7 +136,7 @@ main {
 
         .work-heading {
           display: flex;
-          justify-content: flex-between;
+          justify-content: space-between;
 
           .project-name {
             font-weight: 500;
@@ -256,6 +256,7 @@ footer {
   footer {
     padding: 35px;
     flex-wrap: nowrap;
+    gap: 20px;
 
     .contact-container {
       padding: 0;
@@ -331,8 +332,8 @@ footer {
 
   footer {
     padding: 60px;
-
     flex-wrap: nowrap;
+    gap: 20px;
 
     .contact-container {
       padding: 0;
